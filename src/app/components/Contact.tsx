@@ -74,6 +74,8 @@ const Contact = () => {
         throw new Error('Algo salió mal en el servidor.');
       }
     } catch (error) {
+        console.log('handleSubmit', error);
+        
       setFormState({ status: 'error', message: 'Hubo un problema al enviar tu mensaje. Por favor, inténtalo de nuevo.' });
     }
   };
