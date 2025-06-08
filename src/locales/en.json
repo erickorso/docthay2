@@ -1,0 +1,27 @@
+{
+  "header": {
+    "about": "About Me",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Erick Vargas",
+    "subtitle": "Full-Stack Developer | Passionate about Technology and Design",
+    "button": "View My Projects"
+  },
+  "about": {
+    "title": "About Me"
+  },
+  "projects": {
+    "title": "My Projects"
+  },
+  "contact": {
+    "title": "Let's Talk",
+    "form_name": "Your Name",
+    "form_email": "Your Email",
+    "form_message": "Your Message",
+    "form_button": "Send Message",
+    "form_sending": "Sending...",
+    "form_sent": "Sent"
+  }
+}

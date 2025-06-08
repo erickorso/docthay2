@@ -1,0 +1,27 @@
+{
+  "header": {
+    "about": "Sobre Mí",
+    "projects": "Proyectos",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Erick Vargas",
+    "subtitle": "Desarrollador Full-Stack | Apasionado por la Tecnología y el Diseño",
+    "button": "Ver mis Proyectos"
+  },
+  "about": {
+    "title": "Sobre Mí"
+  },
+  "projects": {
+    "title": "Mis Proyectos"
+  },
+  "contact": {
+    "title": "Hablemos",
+    "form_name": "Tu Nombre",
+    "form_email": "Tu Correo Electrónico",
+    "form_message": "Tu Mensaje",
+    "form_button": "Enviar Mensaje",
+    "form_sending": "Enviando...",
+    "form_sent": "Enviado"
+  }
+}

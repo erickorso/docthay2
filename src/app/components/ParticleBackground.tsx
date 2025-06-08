@@ -74,9 +74,7 @@ const ParticleBackground = () => {
             minimumValue: 0.3,
           }
         },
-        // --- ¡AQUÍ ESTÁ LA MAGIA! ---
         shape: {
-          // Usamos 'images' (plural) para poder especificar un array de logos.
           type: "images",
           // La configuración para las imágenes
           options: {
@@ -120,21 +118,16 @@ const ParticleBackground = () => {
             enable: true,
             speed: 4,
             minimumValue: 15,
-            sync: false,
+            sync: false
           },
         },
         rotate: {
-            // Activa la rotación
             enable: true,
-            // La dirección de la rotación. Puede ser "clockwise", "counter-clockwise" o "random".
             direction: "random",
-            // Activa la animación de rotación
             animation: {
-            enable: true,
-            // La velocidad de la rotación (grados por segundo)
-            speed: 5,
-            // Si la velocidad debe sincronizarse entre todas las partículas
-            sync: false,
+                enable: true,
+                speed: 5,
+                sync: false
             },
         },
       },
