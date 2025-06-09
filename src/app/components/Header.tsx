@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 import { RootState, AppDispatch } from '../../store/store';
 import { setLanguage } from '../../store/languageSlice';
 import { useTranslation } from '../hooks/useTranslation';
+import Image from 'next/image';
 
 const Header = () => {
   const dispatch: AppDispatch = useDispatch();
@@ -31,7 +32,13 @@ const Header = () => {
       transition={{ duration: 0.5 }}
     >
       <a href="#hero" className="text-xl font-bold text-white hover:text-gray-300 transition-colors">
-        {t.hero.title}
+        <Image
+            src="/logo.webp" 
+            alt="Logo Erick Vargas" 
+            width={80} 
+            height={30} 
+            className="object-cover border-4"
+        />
       </a>
 
       {/* Navegación Principal que SÍ usa 't' */}
