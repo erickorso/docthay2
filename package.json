@@ -2,6 +2,8 @@
   "name": "docthay2",
   "version": "0.1.0",
   "private": true,
+  "description": "Portfolio landing — Next.js, TypeScript, Tailwind, Redux Toolkit (Erick Vargas)",
+  "author": "Erick Vargas Ramos <erickorso@gmail.com>",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",

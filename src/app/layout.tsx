@@ -9,8 +9,18 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Portafolio de [Tu Nombre]",
-  description: "Portafolio personal de un desarrollador apasionado",
+  title: "Erick Vargas — Frontend Lead / Senior Engineer",
+  description:
+    "Portfolio of Erick Vargas Ramos — Senior Frontend / Lead. React, Next.js, TypeScript. Remote from Madrid, Spain.",
+  authors: [{ name: "Erick Vargas Ramos", url: "https://github.com/erickorso" }],
+  openGraph: {
+    title: "Erick Vargas — Frontend Lead",
+    description:
+      "Senior Frontend / Lead · React · Next.js · TypeScript · Remote EU",
+    url: "https://github.com/erickorso/docthay2",
+    siteName: "Erick Vargas",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
